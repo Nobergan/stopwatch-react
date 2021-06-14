@@ -1,16 +1,16 @@
 .button {
   color: white;
-  background-color: black;
+  background-color: blueviolet;
 
-  min-width: 100px;
+  min-width: 150px;
 
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 
-  font-size: 17px;
+  font-size: 20px;
 
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
 
   outline: none;
 }
@@ -19,14 +19,12 @@
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  padding: 4px;
+  background-color: red;
+  color: white;
+  padding: 12px;
 }
 .button:focus {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  padding: 4px;
+  background-color: green;
+  color: white;
+  padding: 12px;
 }
